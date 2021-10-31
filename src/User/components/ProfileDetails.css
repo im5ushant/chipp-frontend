@@ -1,0 +1,28 @@
+.profile-details__header {
+  text-align: left;
+  font-size: 1.5rem;
+  padding: 1rem 0.5rem;
+}
+
+.profile-details__text-field {
+  display: block;
+  margin: 0.5rem auto !important;
+  width: 100%;
+}
+
+.profile-details__btn-section {
+  display: flex;
+  margin-top: 1rem;
+}
+
+.profile-details__btn-section button {
+  width: 80%;
+  margin: 0 1%;
+}
+
+.profile-details__btn-section a {
+  text-decoration: none;
+  color: #01003f;
+  width: 80%;
+  margin: 0 1%;
+}

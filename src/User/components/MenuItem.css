@@ -1,0 +1,13 @@
+.menuitem__container{
+    font-size: 1.15rem;
+    font-weight: 200;
+    padding: 1rem 2rem;
+    text-align: left;
+    cursor: pointer;
+}
+
+.menuitem__container:hover,
+.menuitem__container.active{
+    font-weight: 400;
+    background-color: #efefef;
+}

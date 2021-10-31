@@ -1,0 +1,66 @@
+
+
+.fundraiser-detail__image{
+    width: 100%;
+}
+
+.fundraiser-detail__image img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.fundraiser-detail__donate-card-res{
+    display: none;
+}
+
+.fundraiser-detail__organiser{
+    padding: 1.5rem 0;
+}
+
+.fundraiser-detail__date-category{
+    display: flex;
+    padding: 1rem 0;
+    line-height: 1.5rem;
+    border-top: 1px solid rgba(128, 128, 128, 0.3);
+    border-bottom: 1px solid rgba(128, 128, 128, 0.3);
+}
+
+.fundraiser-detail__date{
+    padding-right: 5%;
+}
+
+.fundraiser-detail__category{
+    padding-left: 5%;
+    border-left: 1px solid rgba(128, 128, 128, 0.7);
+}
+.fundraiser-detail__document-container{
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    max-height: 15rem ;
+    justify-content: left;
+}
+
+.fundraiser-detail__document{
+    min-width: 15rem;
+    height: 12rem;
+    display: flex;
+    align-items: center;
+    max-width: 15rem;
+    margin: 1rem;
+}
+
+.fundraiser-detail__document img{
+    
+    width: 100%;
+}
+
+.fundraiser-detail__brief{
+    padding: 1.5rem 0; 
+}
+
+@media only screen and (max-width: 992px){
+    .fundraiser-detail__donate-card-res{
+        display: inline;
+    }
+}

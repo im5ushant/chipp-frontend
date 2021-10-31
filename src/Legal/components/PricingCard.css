@@ -1,0 +1,36 @@
+.pricing-card__main-container {
+  background-color: #ffffff;
+  margin: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #cccccc;
+  min-width: 300px;
+}
+
+.pricing-card__heading {
+  text-align: center;
+  padding: 4rem 2rem;
+  background-image: linear-gradient(to right, #01003fb6, #01003f, #01003fb6);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.pricing-card__heading h3
+ {
+  color: #cbcbcb;
+}
+
+.pricing-card__heading h1{
+    font-size: 2.5rem;
+    color: #ffffff;
+    margin: 1rem;
+}
+
+.pricing-card__heading p {
+    margin: 0;
+  font-size: 0.85rem;
+  color: #cccccc;
+}
+
+.pricing-card__container {
+  padding: 4rem 3rem;
+}

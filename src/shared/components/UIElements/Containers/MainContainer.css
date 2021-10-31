@@ -1,0 +1,8 @@
+
+.main-container__default{
+    max-width: 72rem;
+    padding: 0 1.5rem;
+    width: 100vw;
+    height: auto;
+    margin: 0 auto;
+}

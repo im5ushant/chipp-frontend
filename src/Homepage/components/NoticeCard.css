@@ -1,0 +1,62 @@
+.noticecard__main-container{
+    min-height: 350px;
+    text-align: left;
+    margin: 0.5rem 0;
+    width: 80%;
+    /* background-image: linear-gradient(to bottom right, #2660bd, #102a55);
+    color: #fefefe; */
+    box-shadow: 0 0 5px 0px #ccc;
+    border-radius: 5px;
+    transition: box-shadow 300ms ease-in;
+}
+
+.noticecard__main-container p, h3, h6{margin: 0;}
+
+.noticecard__main-container:hover{
+    box-shadow: 0 0 20px 0px #ccc;
+}
+
+.noticecard__heading{
+    padding: 1rem;
+    background-image: linear-gradient(to bottom right, #101647, #2a3385);
+    color: #fefefe;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.noticecard__heading p{
+    margin: 0;
+    font-size: 0.9rem;
+    font-weight: 100;
+}
+
+.noticecard__heading p i{
+    opacity: 0.7;
+}
+
+.noticecard__heading h3{
+    margin: 0;
+    margin-top: 0.25rem;
+    font-weight: 800;
+}
+
+.noticecard__content{
+    padding: 1rem;
+    color: #444444;
+}
+
+.noticecard__time-date{
+   font-weight: 200;
+   margin-bottom: 0.25rem;
+}
+
+.noticecard__content h6{
+    margin: 0;
+    margin-bottom: 0.25rem;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.noticecard__content p{
+    font-size: 0.9rem;
+}

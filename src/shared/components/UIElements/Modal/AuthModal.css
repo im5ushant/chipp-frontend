@@ -1,0 +1,116 @@
+.auth-modal__header{
+    display: flex;
+    width: 100%;
+    margin-bottom: 0.75rem;
+}
+
+.auth-modal__header-content{
+    font-size: 32px;
+    font-weight: 500;
+    color: #222222;
+    width: 94%;
+    padding-left: 6%;
+}
+
+.auth-modal__content{
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.auth-modal__content-main-container{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.auth-modal__form-container{
+    margin: 1rem;
+    width: 100%;
+}
+
+.auth-modal__divider{
+    height: 10rem;
+    width: 1px;
+    border-left: 1px solid #dddddd;
+    margin: 1rem 0.75rem; 
+}
+
+.auth-modal__social-media-container{
+    margin: 1rem;
+}
+
+.auth-modal__social-signin-btn{
+    display: flex;
+    margin: 1rem auto;
+    padding: 0.5rem 1rem !important;
+    color: #fff;
+    border: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.auth-modal__social-signin-btn i{
+    margin-right: 10px;
+    font-size: 1.75rem;
+}
+
+.auth-modal__social-signin-btn div{
+    width: 85%;
+}
+
+.auth-modal__google-btn{
+    background-color: #c84131;
+}
+
+.auth-modal__google-btn:hover{
+    background-color: #be392a;
+}
+
+.auth-modal__facebook-btn{
+    background-color: #356dc7;
+}
+
+.auth-modal__facebook-btn:hover{
+    background-color: #4161b3;
+}
+
+.auth-modal__forgot-container a{
+    text-decoration: none;
+    color: #444444;
+    font-weight: 500;
+}
+
+.auth-modal__btn{
+    margin-top: 0.75rem;
+}
+
+.auth-modal__privacy-container{
+    font-size: 0.85rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.auth-modal__footer{
+    padding-top: 0.25rem;
+    text-align: center;
+}
+
+.auth-modal__switch-btn{
+    cursor: pointer;
+    font-weight: 900;
+    color: #01003f;
+}
+
+.auth-modal__error{
+    margin: 0;
+    color: rgb(255, 66, 45);
+}
+
+@media (max-width: 767px){
+    .auth-modal__divider{
+        display: none;
+    }
+}

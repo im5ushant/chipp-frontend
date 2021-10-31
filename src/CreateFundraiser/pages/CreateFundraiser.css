@@ -1,0 +1,80 @@
+.create-fundraiser__parent-container {
+  height: auto;
+  min-height: 86vh;
+  width: 100%;
+  background-color: #f7f7f7;
+}
+
+.create-fundraiser__main-container {
+  display: flex;
+  max-width: 72rem;
+  margin: 0 auto;
+  padding: 1.75rem;
+  justify-content: center;
+}
+
+.create-fundraiser__container {
+  padding: 1rem 2rem;
+  background-color: #fff;
+  width: 60%;
+}
+
+.create-fundraiser__subcontainer {
+  max-width: 350px;
+  margin: 0 auto;
+  text-align: left;
+  padding: 1.5rem 0;
+}
+
+.create-fundraiser__custom-label {
+  font-weight: bold;
+  color: #555555;
+  margin-bottom: 0.5rem;
+}
+
+.create-fundraiser__category {
+  width: 100%;
+  padding: 0.5rem;
+  line-height: 1.5;
+  font-size: 0.9rem;
+  border: 1px solid #e4e4e4;
+  border-radius: 4px;
+  background: #fff;
+}
+
+.create-fundraiser__category.invalid{
+  border: 1px solid salmon;
+}
+
+.create-fundraiser__category-error p {
+  margin: 0;
+  font-size: 0.75rem;
+  color: salmon;
+}
+
+.create-fundraiser__go-back-btn {
+  font-size: 0.9rem;
+  margin-right: auto;
+  padding: 0.25rem 2rem;
+  width: fit-content;
+  border-radius: 2px;
+  color: #333;
+  background-color: #f7f7f7;
+  border: none;
+}
+
+.create-fundraiser__go-back-btn > i {
+  margin-right: 0.5rem;
+}
+
+@media only screen and (max-width: 992px) {
+  .create-fundraiser__container {
+    width: 80% !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .create-fundraiser__container {
+    width: 100% !important;
+  }
+}

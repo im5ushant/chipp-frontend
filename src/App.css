@@ -1,0 +1,20 @@
+.App{
+  text-align: center;
+  margin: 0 auto;
+  background-color: #ffffff;
+}
+
+.app__navbar-margin{
+  margin-top: 5rem;
+}
+
+@media only screen and (max-width: 768px){
+  .App{
+      overflow-x: hidden;
+  }
+
+  .app__navbar-margin{
+    margin-top: 3rem;
+  }
+  
+}

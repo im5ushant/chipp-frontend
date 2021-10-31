@@ -1,0 +1,20 @@
+.fundraiser-filter-modal__button{
+    width: 90%;
+    margin: 0.25rem auto;
+}
+
+.fundraiser-filter-modal__main-container{
+    max-width: 500px !important;
+}
+
+.fundraiser-filter-modal__error{
+    margin-top: 0;
+    color: rgb(255, 66, 45);
+}
+
+.fundraiser-filter-modal__header{
+    font-size: 32px;
+    font-weight: 500;
+    color: #222222;
+    margin-bottom: 0.75rem;
+}

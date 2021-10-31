@@ -1,0 +1,53 @@
+.verify-kyc__header {
+    text-align: left;
+    font-size: 1.5rem;
+    padding: 1rem 0.5rem;
+  }
+
+.verify-kyc__form-container{
+    width: 100%;
+    max-width: 32rem;
+    margin: 1rem auto;
+}
+
+  .verify-kyc__custom-label {
+      text-align: left;
+    font-weight: bold;
+    color: #555555;
+    margin: 0.5rem 0 0.25rem 0 ;
+  }
+  
+.verify-kyc__upload-successful{
+  margin: 1rem;
+  padding: 2rem 1rem;
+  background-color: #f6f7ff;
+  color: #01003f;
+  border: 1px solid #dbdfff;
+  border-radius: 5px;
+}
+
+  .verify-kyc__button-container{
+    margin-top: 1rem;
+    display: flex;
+}
+
+.verify-kyc__button-container .submit-btn{
+    width: 90%;
+    margin: 0.25rem;
+    margin-right: 0;
+}
+
+.verify-kyc__button-container a{
+    text-decoration: none;
+    width: 90%;
+    display: block;
+    margin: 0.25rem;
+    margin-left: 0;
+}
+  
+.verify-kyc__error p {
+    margin: 0;
+    font-size: 0.75rem;
+    color: #f44336;
+    text-align: left;
+  }

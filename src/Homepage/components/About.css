@@ -1,0 +1,47 @@
+.about__main-container{
+    width: 100%;
+    background-color: #f6f7ff;
+    margin: 5rem auto 0 auto;
+}
+
+.about__header-container{
+    display: flex;
+    padding-top: 5rem;
+    margin: auto;
+    justify-content: center;
+    color: #10143a;
+}
+
+.about__header-container h2{
+    font-size: 36px;
+}
+
+.about__container{
+    max-width: 48rem;
+    margin: auto;
+    font-weight: 500;
+    justify-content: space-evenly;
+    padding: 1.5rem;
+    padding-bottom: 5rem;
+    color: #050927af;
+}
+
+.about__learn-more{
+    width: fit-content !important;
+    margin-left: auto;
+}
+
+.about__learn-more a{
+    text-decoration: none;
+    color: #05092771;
+}
+
+.about__learn-more i{
+    font-size: .85rem;
+}
+
+.about__container div{
+    width: 45%;
+    padding: 1.5rem;
+    background-color: #f6f7ff;
+}

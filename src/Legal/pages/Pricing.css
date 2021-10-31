@@ -1,0 +1,40 @@
+.pricing__heading{
+    text-align: center;
+    margin: 1rem 0 3rem 0;
+}
+
+.pricing__heading h1{
+    color: #01003f;
+    margin: 0;
+}
+
+.pricing__heading p{
+    color: #555555;
+    font-size: 0.9rem;
+}
+
+.pricing__container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.pricing__sub-heading{
+    color: #01003f;
+    font-size: 0.9rem;
+    padding-bottom: 1rem;
+}
+
+.pricing__prev-feature{
+    text-align: center;
+    font-weight: 600;
+    color: #333333;
+}
+
+.pricing__feature-list-item{
+    color: #333333;
+}
+
+.pricing__feature-list-item i{
+    color: #01003f;
+}

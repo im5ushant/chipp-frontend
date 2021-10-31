@@ -1,0 +1,60 @@
+.donation-item__container {
+  display: flex;
+  justify-content: left;
+  padding: 1rem 0;
+  padding-left: 1rem;
+  border-bottom: 1px solid #efefef;
+  border-radius: 3px;
+}
+
+.donation-item__container a{
+  text-decoration: none;
+  color: #111111;
+}
+
+.donation-item__container p{
+  text-decoration: none;
+}
+
+.donation-item__container:hover {
+  background-color: #efefef;
+}
+
+.donation-item__container img {
+  width: 25%;
+  border-radius: 3px;
+}
+
+.donation-item__container div {
+  text-align: left;
+  display: flex;
+  width: 70%;
+  margin-left: 1rem;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.donation-item__donated-amt {
+  font-weight: 600;
+}
+
+.donation-item__transaction-id {
+  font-size: 0.85rem;
+  color: #888;
+}
+
+@media only screen and (max-width: 576px) {
+  .donation-item__container {
+    padding-left: 0;
+    flex-wrap: wrap;
+  }
+
+  .donation-item__container img,
+  .donation-item__container div {
+    width: 100% !important;
+  }
+
+  .donation-item__container div {
+    margin-top: 1rem;
+  }
+}

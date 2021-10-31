@@ -1,0 +1,46 @@
+.profile-pic-modal__modal-container{
+    width: 90% !important;
+    max-width: 40rem !important;
+}
+
+.profile-pic-modal__main-container{
+    padding: 1rem;
+}
+
+.profile-pic-modal__cropper-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 400px;
+}
+
+.profile-pic-modal__cropper{
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.profile-pic-modal__slider{
+    width: 60%;
+    margin: 1rem auto;
+}
+
+.profile-pic-modal__controls{
+    width: 100%;
+}
+
+.profile-pic-modal__buttons{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.profile-pic-modal__buttons div{
+    width: 100%;
+    margin: 0 auto 0.5rem auto;
+}
+
+.fundraiser-category-modal__footer{
+    display: none;
+}

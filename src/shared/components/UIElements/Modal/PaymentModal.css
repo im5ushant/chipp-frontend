@@ -1,0 +1,67 @@
+.payment-modal__header{
+    display: flex;
+    width: 100%;
+}
+
+.payment-modal__header-content{
+    width: 94%;
+    padding-left: 6%;
+}
+
+.payment-modal__content{
+    margin: 0 auto;
+}
+
+.payment-modal__content-main-container{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.payment-modal__payment-options-container{
+    display: flex;
+    width: 25%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.payment-modal__payment-option{
+    text-align: left;
+    height: 20%;
+    width: 100%;
+    padding: 1.5rem 1rem;
+    background-color: #fff;
+    border: 1px solid #efefef;
+    cursor: pointer;
+}
+
+.payment-modal__payment-option>i{
+    pointer-events: none;
+    margin-right: 1rem;
+}
+
+.payment-modal__payment-option>span{
+    pointer-events: none;
+}
+
+.payment-modal__payment-option:hover,
+.payment-modal__payment-option.true{
+    background-color: #efefef;
+}
+
+.payment-modal__payment-option.true{
+    border-left: 3px solid #ccc;
+}
+
+.payment-modal__card-form-container{
+    width: 70%;
+    margin: 1rem;
+}
+
+.payment-modal__footer{
+    padding-top: 0.25rem;
+    text-align: center;
+}

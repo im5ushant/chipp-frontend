@@ -1,0 +1,105 @@
+.footer__main-container{
+    width: 100%;
+    padding: 4rem 0;
+    background-image: linear-gradient(to bottom right, #101647, #2a3385);
+}
+
+.footer__container{
+    text-align: left;
+    max-width: 72rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 2.5rem;
+    color: #fff;
+}
+
+.footer__logo-container{
+    text-align: center;
+    width: 31%;
+    min-width: 315px;
+    padding: 1rem;
+}
+
+.footer__logo-container img{
+    width: 80%;
+}
+
+.footer__logo-container h2{
+    font-weight: 300;
+    margin: 0 auto;
+    text-decoration: underline;
+    letter-spacing: 4px;
+}
+
+.footer__contact-container{
+    width: 31%;
+    min-width: 315px;
+    padding: 1rem;
+    font-weight: 300;
+}
+
+.footer__contact-container h4{
+    font-size: 1.2rem;
+}
+
+.footer__contact-container div{
+    line-height: 1.75rem;
+}
+
+.footer__social-container{
+    width: 31%;
+    min-width: 315px;
+    padding: 1rem;
+}
+
+.footer__social-container h4 {
+    font-size: 1.2rem;
+}
+
+.footer__social-icon-container{
+    display: flex;
+}
+
+.footer__social-icon{
+    margin: 0 0.5rem;
+    padding: 0.25rem 0.5rem;
+    border-radius: 100px;
+    cursor: pointer;
+    color: #fff;
+    background-color: transparent;
+    transition: all 200ms ease-in;
+}
+
+.footer__social-icon.first-icon{
+    margin-left: 0;
+}
+
+.footer__social-icon:hover{
+    box-shadow: 0 0 3px #ccc;
+    background-color: #ccc;
+    color: #272d64;
+}
+
+.footer__legal-container{
+    font-size: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    background-color: #01003f;
+    justify-content: center;
+}
+
+.footer__legal-container div{
+    margin: 0 1rem;
+    text-decoration: none;
+    color: #bbbbbb;
+}
+
+.footer__legal-links a{
+    margin: 0.25rem;
+    color: #bbbbbb;
+    text-decoration: none;
+}
+
+

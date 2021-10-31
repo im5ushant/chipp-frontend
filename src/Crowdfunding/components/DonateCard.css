@@ -1,0 +1,80 @@
+.donatecard__container{
+    position: sticky;
+    position: -webkit-sticky;
+    top: 6.3rem;
+    padding: 1rem;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0px 0px 5px #ccc;
+}
+
+.donatecard__amount{
+    margin: 1rem 0;
+}
+
+.donatecard__progress-bar{
+    width: 100%;
+    height: 0.5rem;
+    margin: 0.5rem 0;
+    background-color: #06193e5e;
+    border-radius: 5px;
+}
+
+.donatecard__raised-progress-bar{
+    width: 75%;
+    height: 0.5rem;
+    margin: 0.5rem 0;
+    background-color: #06193e;
+    border-radius: 5px;
+}
+
+.donatecard__donors-shares{
+    font-size: 0.9rem;
+    width: 100%;
+    display: flex;
+}
+
+.donatecard__donors-shares div{
+    width: 50%;
+}
+
+.donatecard__amount-raised>span{
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.donatecard__button{
+    margin: 0.75rem auto;
+}
+
+@media only screen and (max-width: 992px){
+
+    .donatecard__container{
+        margin-top: 1rem;
+    }
+
+    .donatecard__top-contributors{
+        display: none;
+    }
+
+    .donatecard__btn-container{
+        display: flex;
+    }
+
+    .donatecard__button{
+        width: 45%;
+    }
+    
+}
+
+@media only screen and (max-width: 768px){
+
+    .donatecard__btn-container{
+        flex-direction: column;
+    }
+
+    .donatecard__button{
+        width: 100%;
+    }
+
+}

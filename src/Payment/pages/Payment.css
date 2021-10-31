@@ -1,0 +1,164 @@
+p {
+  margin: 0;
+}
+
+.payment__parent-container {
+  height: auto;
+  min-height: 90vh;
+  width: 100%;
+  background-color: #f7f7f7;
+}
+
+.payment__main-container {
+  display: flex;
+  max-width: 72rem;
+  margin: 0 auto;
+  padding: 1.75rem;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.payment__container {
+  padding: 1rem 2rem;
+  background-color: #fff;
+  width: 60%;
+}
+
+.payment__summary {
+  padding: 1.5rem 2rem;
+  background-color: #fff;
+  width: 30%;
+  height: fit-content;
+}
+
+.payment__subcontainer {
+  text-align: left;
+  padding: 1.5rem 0;
+  border-bottom: 1px solid #eee;
+}
+
+.payment__summary-subcontainer {
+  text-align: left;
+  padding: 0;
+  border-bottom: 1px solid #eee;
+}
+
+.payment__summary-subcontainer.mobile {
+  display: none;
+}
+
+.payment__summary-subcontainer dl {
+  color: #666;
+}
+
+.payment__summary-subcontainer dt {
+  float: left;
+}
+
+.payment__summary-subcontainer dd {
+  text-align: right;
+}
+
+.payment__summary-subcontainer i {
+  margin-right: 0.25rem;
+}
+
+.payment__subcontainer-noborder {
+  text-align: left;
+  padding: 1.5rem 0;
+  border-bottom: none;
+}
+
+.payment__go-back-btn {
+  font-size: 0.9rem;
+  margin-right: auto;
+  padding: 0.25rem 2rem;
+  width: fit-content;
+  border-radius: 2px;
+  color: #333;
+  background-color: #f7f7f7;
+  border: none;
+}
+
+.payment__go-back-btn > i {
+  margin-right: 0.5rem;
+}
+
+.payment__fundraiser-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.payment__fundraiser-info img {
+  width: 25%;
+}
+
+.payment__fundraiser-info div {
+  display: flex;
+  width: 70%;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.payment__donation-amount {
+  margin: 1.5rem 0 0 0;
+}
+
+.payment__subheading {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.payment__continue-btn {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-top: 1rem;
+  width: fit-content;
+  padding: 0.65rem 2rem;
+}
+
+@media only screen and (max-width: 992px) {
+  .payment__summary {
+    display: none;
+  }
+
+  .payment__main-container{
+    padding: 0;
+  }
+
+  .payment__container {
+    width: 80% !important;
+  }
+
+  .payment__fundraiser-info {
+    flex-wrap: wrap;
+  }
+
+  .payment__fundraiser-info img,
+  .payment__fundraiser-info div {
+    width: 100% !important;
+  }
+
+  .payment__fundraiser-info div {
+    margin-top: 1rem;
+  }
+
+  .payment__summary-subcontainer.mobile {
+    display: block;
+    padding: 1rem 0;
+  }
+
+  .payment__summary-subcontainer .payment__subheading {
+    margin-bottom: 0.75rem;
+  }
+
+  .payment__summary-subcontainer.mobile dl {
+    margin: 0;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .payment__container {
+    width: 100% !important;
+  }
+}

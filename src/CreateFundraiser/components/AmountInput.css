@@ -1,0 +1,46 @@
+.create-fundraiser-amount__main-container{
+  margin: 1rem auto;
+}
+
+.create-fundraiser-amount__container {
+  display: flex;
+  padding: 0.5rem 1rem;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  align-items: center;
+}
+
+.create-fundraiser-amount__container.error {
+  border: 1px solid #f44336;
+  color: #f44336;
+}
+
+.create-fundraiser-amount__container.error input {
+  color: #f44336;
+}
+
+.create-fundraiser-amount__prefix-suffix {
+  font-size: 1.5rem;
+  display: inline;
+}
+
+.create-fundraiser-amount__input {
+  display: inline;
+  text-align: right;
+  padding-left: 1rem;
+  width: 90%;
+  border: none !important;
+  outline: none;
+}
+
+.create-fundraiser-amount__error p {
+  margin: 0;
+  font-size: 0.75rem;
+  color: #f44336;
+  text-align: left;
+}
+
+.create-fundraiser-amount__input-font-large {
+  font-size: 2rem;
+  font-weight: 600;
+}

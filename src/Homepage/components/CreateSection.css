@@ -1,0 +1,18 @@
+.create-section__main-container{
+    background-color: #2660bd2c;
+    margin: 2rem auto;
+}
+
+.create-section__container{
+    max-width: 72rem;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1.5rem;
+}
+
+.create-section__container div{
+    width: 45%;
+    padding: 1.5rem;
+    background-color: #2660bd2c;
+}

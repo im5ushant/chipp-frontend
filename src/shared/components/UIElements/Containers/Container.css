@@ -1,0 +1,22 @@
+.container__default {
+  margin: 1.5rem;
+  padding: 1rem;
+  border-radius: 5px;
+  -moz-box-shadow: 0 0 7px 0px #ccc;
+  -webkit-box-shadow: 0 0 7px 0px #ccc;
+  box-shadow: 0 0 7px 0px #ccc;
+}
+
+.container__hover {
+    margin: 1rem 0;
+    padding: 1rem;
+    border-radius: 5px;
+    -moz-box-shadow: 0 0 3px 0px #ccc;
+    -webkit-box-shadow: 0 0 3px 0px #ccc;
+    box-shadow: 0 0 3px 0px #ccc;
+    transition: box-shadow 0.5ms ease-in;
+  }
+
+.container__hover:hover {
+  box-shadow: 0 0 7px 0px #ccc;
+}

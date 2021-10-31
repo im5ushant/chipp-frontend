@@ -1,0 +1,46 @@
+.add-info__main-container{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color: #f3f3fb3b;
+}
+
+.add-info__container{
+    max-width: 32rem;
+    width: 85%;
+    margin: 0.2rem auto;
+    padding: 2rem;
+    background-color: #fff;
+    box-shadow: 0 0 5px 0 #ccc;
+}
+
+.add-info__header{
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    font-size: 32px;
+    font-weight: 500;
+    background-color: #f3f3fbc9;
+    color: #222222;
+}
+
+.add-info__text-field{
+    display: block;
+    margin: 0.25rem auto !important;
+    width: 100%;
+}
+
+.add-info__button-container{
+    display: flex;
+}
+
+.add-info__button-container .submit-btn{
+    width: 90%;
+    margin: 0.25rem;
+    margin-right: 0;
+}
+
+.add-info__button-container a{
+    width: 90%;
+    display: block;
+    margin: 0.25rem;
+    margin-left: 0;
+}

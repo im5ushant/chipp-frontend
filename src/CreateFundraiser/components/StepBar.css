@@ -1,0 +1,22 @@
+.step-bar__step-counter{
+    font-size: 0.75rem;
+}
+
+.step-bar__main-container{
+    display: flex;
+    width: 100%;
+    margin: 1rem auto;
+    height: 4px;
+}
+
+.step-bar__bar{
+    height: 100%;
+    width: 25%;
+    border-radius: 10px;
+    margin: 0 0.75%;
+    background-color: #88888893;
+}
+
+.step-bar__bar.filled{
+    background-color: #06193ec7;
+}

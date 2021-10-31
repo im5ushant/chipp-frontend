@@ -1,0 +1,9 @@
+.top-contributors__container h3{
+    margin: 1.25rem 0rem 0.5rem 0rem;
+}
+.top-contributors__see-all-btn{
+    font-size: 0.85rem;
+    margin-left: auto;
+    padding: 0rem 0.75rem;
+    width: fit-content;
+}

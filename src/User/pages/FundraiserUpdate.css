@@ -1,0 +1,32 @@
+.fundraiser-update__parent-container {
+  height: auto;
+  min-height: 86vh;
+  width: 100%;
+  background-color: #f7f7f7;
+}
+
+.fundraiser-update__main-container {
+  display: flex;
+  max-width: 72rem;
+  margin: 0 auto;
+  padding: 1.75rem;
+  justify-content: center;
+}
+
+.fundraiser-update__container {
+  padding: 1rem 2rem;
+  background-color: #fff;
+  width: 60%;
+}
+
+.fundraiser-update__subcontainer {
+    text-align: left;
+    padding: 1.5rem 0;
+    border-bottom: 1px solid #eee;
+}
+
+@media only screen and (max-width: 992px) {
+  .fundraiser-update__container {
+    width: 80% !important;
+  }
+}

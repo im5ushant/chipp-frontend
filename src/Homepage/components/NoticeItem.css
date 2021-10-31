@@ -1,0 +1,61 @@
+.noticeitem__main-container {
+  text-align: left;
+  width: 31%;
+  min-width: 274px;
+  max-width: 72rem;
+  margin: 1rem auto;
+  background-color: #fcfcfc;
+  box-shadow: 0 0 5px #ccc;
+  border-radius: 5px;
+  transition: box-shadow 300ms ease-in;
+}
+
+.noticeitem__main-container:hover{
+  box-shadow: 0 0 10px #ccc;
+}
+
+.noticeitem__header {
+  padding: 1rem;
+  background-image: linear-gradient(to bottom right, #101647, #2a3385);
+  color: white;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.noticeitem__header p {
+  font-size: 0.9rem;
+  font-weight: 100;
+}
+
+.noticeitem__header p i {
+  opacity: 0.7;
+}
+
+.noticeitem__header h3 {
+  font-weight: 800;
+}
+
+.noticeitem__content {
+  padding: 1rem;
+  color: #444444;
+}
+
+.noticeitem__time-date {
+  font-weight: 200;
+  margin-bottom: 0.25rem;
+}
+
+.noticeitem__content h6{
+    margin-bottom: 0.25rem;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.noticeitem__content p{
+    font-size: 0.9rem;
+}
+
+.noticeitem__delete-btn{
+  margin-bottom: 1rem;
+  
+}

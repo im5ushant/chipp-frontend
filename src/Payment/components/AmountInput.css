@@ -1,0 +1,38 @@
+.amount-input__container{
+    display: flex;
+    margin: 0.5rem 0 0 0;
+    padding: 0.5rem 1rem;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    align-items: center;
+}
+
+.amount-input__container.error{
+    border: 1px solid salmon;
+    color: salmon;
+}
+
+.amount-input__prefix-suffix{
+    font-size: 1.5rem;
+    display: inline;
+}
+
+.amount-input__input{
+    display: inline;
+    text-align: right;
+    padding-left: 1rem;
+    width: 90%;
+    border: none !important;
+    outline: none;
+}
+
+.amount-input__error p{
+    margin: 0;
+    font-size: 0.75rem;
+    color: salmon;
+}
+
+.amount-input__input-font-large{
+    font-size: 2rem;
+    font-weight: 600;
+}

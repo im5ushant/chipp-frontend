@@ -1,0 +1,22 @@
+.profile-pic__main-container {
+  position: relative;
+  height: 50px;
+  width: 50px;
+  background-color: #ddd;
+  border-radius: 100px;
+  cursor: pointer;
+}
+
+.profile-pic__add-icon {
+  font-size: 0.75rem;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.profile-pic__add-icon i {
+padding: 2px;
+color: #333333;
+  background-color: #fff;
+  border-radius: 100px;
+}

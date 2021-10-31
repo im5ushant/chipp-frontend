@@ -1,0 +1,262 @@
+.card__container {
+  min-width: 228px;
+  width: 31%;
+  margin: 1.1%;
+}
+
+.card {
+  width: 100%;
+  background-color: #ffffff;
+  position: relative;
+  border-radius: 0.5rem;
+  -moz-box-shadow: 0 0 3px 0px #c8c8ff;
+  -webkit-box-shadow: 0 0 3px 0px #c8c8ff;
+  box-shadow: 0 0 3px 0px #c8c8ff;
+  transition: all 300ms ease-in;
+}
+
+.card__disabled{
+  background-color: #ccc;
+}
+
+.card:hover{
+    box-shadow: 0 0 10px 0px #c8c8ff;
+}
+
+.card__image {
+  height: 216px;
+  background-color: #acaaaa;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
+
+.card__disabled .card__image{
+  background-color: #555555;
+  background-blend-mode: multiply;
+}
+
+.card__info {
+  padding: 1em;
+}
+
+.card__info .location {
+  margin-bottom: 0.25rem;
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: #01003f;
+}
+
+.card__disabled .card__info .location{
+  color: #777777;
+}
+
+.card__info .heading {
+  position: relative;
+  font-size: 1rem;
+  font-weight: 600;
+  max-height: 1.25em;
+  color: #333333;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.card__disabled .card__info .heading{
+  color: #444444;
+}
+
+.card__info .heading:after {
+  content: "";
+  text-align: right;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 25%;
+  height: 1.25em;
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0),
+    rgba(255, 255, 255, 1) 50%
+  );
+}
+
+.card__disabled .card__info .heading:after{
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0),
+    #ccc 50%
+  );
+}
+
+.card__info a {
+  text-decoration: none;
+  font-weight: 400;
+}
+
+.card__info .details {
+  position: relative;
+  margin: 0.5rem 0;
+  font-size: 0.95rem;
+  font-weight: 300;
+  color: #333333;
+  min-height: 4.5em;
+  max-height: 4.5em;
+  overflow: hidden;
+}
+
+.card__info .details:after {
+  content: "";
+  text-align: right;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 70%;
+  height: 1.5em;
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0),
+    rgba(255, 255, 255, 1) 50%
+  );
+}
+
+.card__disabled .card__info .details:after{
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0),
+    #ccc 50%
+  );
+}
+
+.card__info .amount {
+  margin: 1rem 0 0 0;
+}
+
+.card__info .progress-bar {
+  width: 100%;
+  height: 0.5rem;
+  margin: 0.5rem 0;
+  background-color: #06193e5e;
+  border-radius: 5px;
+}
+
+.card__disabled .card__info .progress-bar{
+  background-color: #7777775e;
+}
+
+.raised-progress-bar {
+  height: 0.5rem;
+  margin: 0.5rem 0;
+  background-color: #06193e;
+  border-radius: 5px;
+}
+
+.amount-raised{
+  color: #333333;
+}
+
+.card__disabled .raised-progress-bar{
+  background-color: #777777;
+}
+
+.card__disabled .amount-raised{
+  color: #555555;
+}
+
+.amount-raised > span {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.card__edit-container{
+  display: flex;
+  margin-top: 0.75rem;
+}
+
+.card__edit-btn{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0.5rem
+}
+
+.card__edit-btn.disable-btn{
+  background-color: rgb(255, 214, 210);
+  color: rgb(255, 78, 58);
+}
+
+.card__edit-container i{
+  font-size: 1rem;
+}
+
+.card__edit-container span{
+  font-size: 0.65rem;
+  line-height: 00.65rem;
+  margin-top: 0.25rem;
+}
+
+.card__chipp-btn {
+  margin-top: 1rem;
+}
+
+
+
+/* .chipp-btn{
+    position: absolute;
+    top: 48%;
+    right: 10%;
+    height: 100px;
+    width: 100px;
+    background-color: #ffffff;
+    border: 0.75rem solid #0f475c;
+    border-radius: 50%;
+    cursor: pointer;
+} */
+
+.confirm-modal__header{
+  padding: 0 !important;
+  border-bottom: none !important;
+}
+
+.confirm-modal__container{
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+.confirm-modal__container h4{
+  margin-bottom: 0;
+}
+
+.confirm-modal__container p{
+  font-size: .85rem;
+  color: #222222;
+  margin: 0 auto 1.5rem auto;
+}
+
+.confirm-modal__container>div{
+  display: flex;
+  justify-content: space-between;
+}
+
+.confirm-modal__container>div>div{
+  width: 48%;
+}
+
+@media only screen and (max-width: 845px) {
+  .card__container {
+    min-width: 228px;
+    width: 47%;
+    margin: 0.5rem;
+  }
+}
+
+@media only screen and (max-width: 645px) {
+  .card__container {
+    width: 98%;
+    max-width: 400px;
+    margin: 0.5rem auto;
+  }
+}

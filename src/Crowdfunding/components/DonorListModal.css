@@ -1,0 +1,22 @@
+.donor-list-modal__main-container{
+    max-width: 560px !important;
+}
+
+.donor-list-modal__header{
+    padding: 0.5rem 0.5rem 1rem 0.5rem;
+}
+
+.donor-list-modal__heading{
+    margin: 0 auto 0.5rem auto;
+    font-size: 1.25rem;
+}
+
+.donors-list-modal__chipp-btn{
+    max-width: 20rem !important;
+    margin: 0 auto 0.5rem auto;
+}
+
+.donor-list-modal__footer{
+    padding: 0 !important;
+    margin: 0;
+}

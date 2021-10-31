@@ -1,0 +1,19 @@
+.slider_main-container{
+    width: 100%;
+    background-color: #01003F;
+}
+
+.slider_main-container img{
+    width: 100%;
+}
+
+.slider_below-svg{
+    margin-top: -3px;
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+}
+/* 
+.slider_below-svg img{
+    background-size: 100px 1080px;
+} */
